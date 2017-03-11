@@ -61,24 +61,21 @@ def ws_message(message,api_hostname,identifer):
             message.reply_channel.send({"text":message.content["text"]})
 
     else:
-        message.channel_session['auth'] = True
-        message.reply_channel.send({"text":"Auth Passed.The connection established"})
-        Group("device-%s-%s" %(identifer,api_hostname)).add(message.reply_channel)
-        # key = message.channel_session['key']
-        # info = message.content['text']
-        # random = message.channel_session['setup_random']
-        # try:
-        #     prefix, = ws_init_auth.decrypt_and_validate_info(info,key,random,ws_init_auth.CONNECTION_REPLY_PREFIX)
-        #     del_chanell_session(message,'setup_random')
-        # except Exception,e:
-        #     message.reply_channel.send({"text":str(e)})
-        #     del_chanell_session(message,'key','auth')
-        #     message.reply_channel.send({"close":True})
-        # else:
-        #     #认证通过,置session位，并将其加入Group
-        #     message.channel_session['auth'] = True
-        #     message.reply_channel.send({"text":"Auth Passed.The connection established"})
-        #     Group("device-%s-%s" %(identifer,api_hostname)).add(message.reply_channel)
+        key = message.channel_session['key']
+        info = message.content['text']
+        random = message.channel_session['setup_random']
+        try:
+            prefix, = ws_init_auth.decrypt_and_validate_info(info,key,random,ws_init_auth.CONNECTION_REPLY_PREFIX)
+            del_chanell_session(message,'setup_random')
+        except Exception,e:
+            message.reply_channel.send({"text":str(e)})
+            del_chanell_session(message,'key','auth')
+            message.reply_channel.send({"close":True})
+        else:
+            #认证通过,置session位，并将其加入Group
+            message.channel_session['auth'] = True
+            message.reply_channel.send({"text":"Auth Passed.The connection established"})
+            Group("device-%s-%s" %(identifer,api_hostname)).add(message.reply_channel)
 
 
 

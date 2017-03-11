@@ -1,0 +1,340 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	duos/migrations/0001_initial.py	1;"	kind:file	line:1
+AES	duos/duoTools.py	/^from Crypto.Cipher import AES$/;"	kind:namespace	line:12
+AES	test_crpyto.py	/^from Crypto.Cipher import AES$/;"	kind:namespace	line:5
+AKEY_LEN	duo/__init__.py	/^AKEY_LEN = 40$/;"	kind:variable	line:25
+ALLOWED_HOSTS	whu_isc/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+APP_EXPIRE	duo/__init__.py	/^APP_EXPIRE = 3600$/;"	kind:variable	line:21
+APP_PREFIX	duo/__init__.py	/^APP_PREFIX = 'APP'$/;"	kind:variable	line:14
+AUTH_PASSWORD_VALIDATORS	whu_isc/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AUTH_PREFIX	duo/__init__.py	/^AUTH_PREFIX = 'AUTH'$/;"	kind:variable	line:15
+AUTH_PREFIX	duos/duoTools.py	/^AUTH_PREFIX = 'AUTH'$/;"	kind:variable	line:17
+Account	duos/admin.py	/^from .models import Account,User,Application,Device$/;"	kind:namespace	line:5
+Account	duos/duoTools.py	/^from .models import Account,Application,createRandomFields,User$/;"	kind:namespace	line:4
+Account	duos/models.py	/^class Account(models.Model):$/;"	kind:class	line:22
+Account	duos/tests.py	/^from .models import Account,Application,User,createRandomFields$/;"	kind:namespace	line:4
+Account	duos/views.py	/^from .models import Application,Account,User,Device,createRandomFields$/;"	kind:namespace	line:4
+Account	initdb.py	/^from duos.models import Account,Application,User,createRandomFields,Device$/;"	kind:namespace	line:8
+AppConfig	duos/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:3
+Application	duos/admin.py	/^from .models import Account,User,Application,Device$/;"	kind:namespace	line:5
+Application	duos/duoTools.py	/^from .models import Account,Application,createRandomFields,User$/;"	kind:namespace	line:4
+Application	duos/models.py	/^class Application(models.Model):$/;"	kind:class	line:45
+Application	duos/tests.py	/^from .models import Account,Application,User,createRandomFields$/;"	kind:namespace	line:4
+Application	duos/views.py	/^from .models import Application,Account,User,Device,createRandomFields$/;"	kind:namespace	line:4
+Application	initdb.py	/^from duos.models import Account,Application,User,createRandomFields,Device$/;"	kind:namespace	line:8
+AuthFailedError	duos/auth_tools/ws_init_auth.py	/^class AuthFailedError(Exception):$/;"	kind:class	line:22
+BASE_DIR	whu_isc/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+CHANNEL_LAYERS	whu_isc/settings.py	/^CHANNEL_LAYERS = {$/;"	kind:variable	line:139
+CHCHES	whu_isc/settings.py	/^CHCHES = {$/;"	kind:variable	line:131
+CONNECTION_REPLY_PREFIX	duos/auth_tools/ws_init_auth.py	/^CONNECTION_REPLY_PREFIX = "ACK"$/;"	kind:variable	line:17
+CONNECTION_SETUP_PREFIX	duos/auth_tools/ws_init_auth.py	/^CONNECTION_SETUP_PREFIX = "SYN"$/;"	kind:variable	line:16
+DATABASES	whu_isc/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	whu_isc/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+DUO_EXPIRE	duo/__init__.py	/^DUO_EXPIRE = 0$/;"	kind:variable	line:20
+DUO_PREFIX	duo/__init__.py	/^DUO_PREFIX = 'TX'$/;"	kind:variable	line:13
+DUO_PREFIX	duos/duoTools.py	/^DUO_PREFIX = 'TX'$/;"	kind:variable	line:16
+Device	duos/admin.py	/^from .models import Account,User,Application,Device$/;"	kind:namespace	line:5
+Device	duos/consumers.py	/^from .models import Device$/;"	kind:namespace	line:9
+Device	duos/models.py	/^class Device(models.Model):$/;"	kind:class	line:87
+Device	duos/views.py	/^from .models import Application,Account,User,Device,createRandomFields$/;"	kind:namespace	line:4
+Device	initdb.py	/^from duos.models import Account,Application,User,createRandomFields,Device$/;"	kind:namespace	line:8
+DuoFormatException	duos/duoTools.py	/^class DuoFormatException(Exception):$/;"	kind:class	line:22
+DuoFormatException	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+DuoToolsTest	duos/tests.py	/^class DuoToolsTest(TestCase):$/;"	kind:class	line:65
+DuosConfig	duos/apps.py	/^class DuosConfig(AppConfig):$/;"	kind:class	line:6
+ENROLL_PREFIX	duo/__init__.py	/^ENROLL_PREFIX = 'ENROLL'$/;"	kind:variable	line:16
+ENROLL_REQUEST_PREFIX	duo/__init__.py	/^ENROLL_REQUEST_PREFIX = 'ENROLL_REQUEST'$/;"	kind:variable	line:17
+ERR_AKEY	duo/__init__.py	/^ERR_AKEY = 'ERR|The application secret key passed to sign_request() must be at least %s characters.' % AKEY_LEN$/;"	kind:variable	line:30
+ERR_IKEY	duo/__init__.py	/^ERR_IKEY = 'ERR|The Duo integration key passed to sign_request() is invalid.'$/;"	kind:variable	line:28
+ERR_SKEY	duo/__init__.py	/^ERR_SKEY = 'ERR|The Duo secret key passed to sign_request() is invalid.'$/;"	kind:variable	line:29
+ERR_UNKNOWN	duo/__init__.py	/^ERR_UNKNOWN = 'ERR|An unknown error has occurred.'$/;"	kind:variable	line:32
+ERR_USER	duo/__init__.py	/^ERR_USER = 'ERR|The username passed to sign_request() is invalid.'$/;"	kind:variable	line:27
+ERR_USER_ENCODING	duo/__init__.py	/^ERR_USER_ENCODING = 'ERR|The username passed to sign_request() could not be encoded. Pass a <unicode> username in Python 2 or <str> username in Python 3.'$/;"	kind:variable	line:31
+EXPIRETIME	duos/duoTools.py	/^EXPIRETIME = 60$/;"	kind:variable	line:18
+EXPLICIT_AUTH_PREFIX	duos/auth_tools/ws_init_auth.py	/^EXPLICIT_AUTH_PREFIX = "AUTH"$/;"	kind:variable	line:20
+EXPLICIT_AUTH_PREFIX	duos/views.py	/^from auth_tools.ws_init_auth import EXPLICIT_AUTH_PREFIX,gen_b64_random_and_code$/;"	kind:namespace	line:19
+EXPLICIT_AUTH_PREFIX	duos/views.py	/^from auth_tools.ws_init_auth import gen_b64_random_and_code,EXPLICIT_AUTH_PREFIX$/;"	kind:namespace	line:21
+EXPLICIT_DENIED_PREFIX	duos/auth_tools/ws_init_auth.py	/^EXPLICIT_DENIED_PREFIX = "FAILED"$/;"	kind:variable	line:19
+EXPLICIT_REPLY_COMMAND	duos/consumers.py	/^EXPLICIT_REPLY_COMMAND = "EXPLICIT"$/;"	kind:variable	line:12
+EXPLICIT_SUCCEED_PREFIX	duos/auth_tools/ws_init_auth.py	/^EXPLICIT_SUCCEED_PREFIX = "SUCCEED"$/;"	kind:variable	line:18
+Group	duos/consumers.py	/^from channels import Group$/;"	kind:namespace	line:2
+Group	duos/views.py	/^from channels import Group$/;"	kind:namespace	line:12
+HttpRequest	duos/views.py	/^from django.http import HttpRequest,HttpResponse$/;"	kind:namespace	line:6
+HttpResponse	duos/views.py	/^from django.http import HttpRequest,HttpResponse$/;"	kind:namespace	line:6
+IKEY_LEN	duo/__init__.py	/^IKEY_LEN = 20$/;"	kind:variable	line:23
+INSTALLED_APPS	whu_isc/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+IntegrityError	duos/views.py	/^from django.db.utils import IntegrityError$/;"	kind:namespace	line:9
+LANGUAGE_CODE	whu_isc/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	whu_isc/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Meta	duos/models.py	/^    class Meta():$/;"	kind:class	line:114
+Meta	duos/models.py	/^    class Meta():$/;"	kind:class	line:81
+Migration	duos/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+PermissionDenied	duos/views.py	/^from django.core.exceptions import PermissionDenied$/;"	kind:namespace	line:5
+ROOT_URLCONF	whu_isc/settings.py	/^ROOT_URLCONF = 'whu_isc.urls'$/;"	kind:variable	line:54
+SECRET_KEY	whu_isc/settings.py	/^SECRET_KEY = '*+&!gba)_+wgq4s(ba@*o97i5n(mtr=0$u8-y%#r-r889j$!km'$/;"	kind:variable	line:23
+SKEY_LEN	duo/__init__.py	/^SKEY_LEN = 40$/;"	kind:variable	line:24
+STATIC_URL	whu_isc/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	whu_isc/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	whu_isc/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	duos/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	whu_isc/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	whu_isc/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	whu_isc/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+User	duos/admin.py	/^from .models import Account,User,Application,Device$/;"	kind:namespace	line:5
+User	duos/duoTools.py	/^from .models import Account,Application,createRandomFields,User$/;"	kind:namespace	line:4
+User	duos/models.py	/^class User(models.Model):$/;"	kind:class	line:73
+User	duos/tests.py	/^from .models import Account,Application,User,createRandomFields$/;"	kind:namespace	line:4
+User	duos/views.py	/^from .models import Application,Account,User,Device,createRandomFields$/;"	kind:namespace	line:4
+User	initdb.py	/^from duos.models import Account,Application,User,createRandomFields,Device$/;"	kind:namespace	line:8
+WSGI_APPLICATION	whu_isc/settings.py	/^WSGI_APPLICATION = 'whu_isc.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	duo/__init__.py	1;"	kind:file	line:1
+__init__.py	duos/__init__.py	1;"	kind:file	line:1
+__init__.py	duos/auth_tools/__init__.py	1;"	kind:file	line:1
+__init__.py	duos/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	whu_isc/__init__.py	1;"	kind:file	line:1
+__str__	duos/models.py	/^    def __str__(self):                                                                                                         $/;"	kind:member	line:84
+__str__	duos/models.py	/^    def __str__(self):                                                                                                         $/;"	kind:member	line:98
+__str__	duos/models.py	/^    def __str__(self):$/;"	kind:member	line:41
+__str__	duos/models.py	/^    def __str__(self):$/;"	kind:member	line:54
+_hmac_sha1	duo/__init__.py	/^def _hmac_sha1(key, msg):$/;"	kind:function	line:35
+_hmac_sha1	duos/duoTools.py	/^def _hmac_sha1(key, msg):$/;"	kind:function	line:55
+_parse_vals	duo/__init__.py	/^def _parse_vals(key, val, prefix, ikey):$/;"	kind:function	line:51
+_parse_vals	duos/tests.py	/^from duo import _sign_vals,_parse_vals,sign_request$/;"	kind:namespace	line:6
+_parse_vals	duos/views.py	/^from duo import _parse_vals$/;"	kind:namespace	line:16
+_sign_request	duo/__init__.py	/^def _sign_request(ikey, skey, akey, username, prefix):$/;"	kind:function	line:79
+_sign_vals	duo/__init__.py	/^def _sign_vals(key, vals, prefix, expire):$/;"	kind:function	line:40
+_sign_vals	duos/tests.py	/^from duo import _sign_vals,_parse_vals,sign_request$/;"	kind:namespace	line:6
+_verify_response	duo/__init__.py	/^def _verify_response(ikey, skey, akey, prefix, sig_response):$/;"	kind:function	line:150
+acc1	initdb.py	/^    **Account.new_account_hostname())$/;"	kind:variable	line:23
+acc2	initdb.py	/^    **Account.new_account_hostname())$/;"	kind:variable	line:25
+account	duos/models.py	/^    account = models.ForeignKey(Account,on_delete=models.CASCADE)$/;"	kind:variable	line:52
+account	duos/models.py	/^    account = models.ForeignKey(Account,on_delete=models.CASCADE)$/;"	kind:variable	line:79
+account	duos/models.py	/^    account = models.ForeignKey(Account,on_delete=models.CASCADE)$/;"	kind:variable	line:96
+account_email	duos/models.py	/^    account_email = models.EmailField(unique=True)$/;"	kind:variable	line:26
+account_name	duos/models.py	/^    account_name = models.CharField(max_length=30)$/;"	kind:variable	line:27
+account_phone	duos/models.py	/^    account_phone = models.CharField(max_length=11)$/;"	kind:variable	line:28
+admin	duos/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	whu_isc/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	duos/admin.py	1;"	kind:file	line:1
+api_hostname	duos/models.py	/^    api_hostname = models.CharField(max_length=8,unique=True)$/;"	kind:variable	line:29
+app1	initdb.py	/^    app1 = Application.objects.create(name='chris_sdk1',account=acc1,**Application.new_app(acc1.api_hostname))$/;"	kind:variable	line:27
+app2	initdb.py	/^    app2 = Application.objects.create(name='chris_sdk2',account=acc1,**Application.new_app(acc1.api_hostname))$/;"	kind:variable	line:28
+app3	initdb.py	/^    app3 = Application.objects.create(name='xiong_sdk1',account=acc2,**Application.new_app(acc2.api_hostname))$/;"	kind:variable	line:29
+app4	initdb.py	/^    app4 = Application.objects.create(name='xiong_sdk2',account=acc2,**Application.new_app(acc2.api_hostname))$/;"	kind:variable	line:30
+app_name	duos/urls.py	/^app_name = 'duos'$/;"	kind:variable	line:4
+application	whu_isc/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	duos/apps.py	1;"	kind:file	line:1
+asgi	whu_isc/asgi.py	/^import channels.asgi$/;"	kind:namespace	line:2
+asgi.py	whu_isc/asgi.py	1;"	kind:file	line:1
+auth	duos/auth.py	/^def auth(code,mobile):$/;"	kind:function	line:1
+auth	duos/consumers.py	/^from auth import auth$/;"	kind:namespace	line:6
+auth	duos/views.py	/^def auth(request,api_hostname,identifer):$/;"	kind:function	line:150
+auth.py	duos/auth.py	1;"	kind:file	line:1
+auth_check_ws	duos/views.py	/^def auth_check_ws(request,api_hostname,identifer):$/;"	kind:function	line:126
+auth_pre	duos/views.py	/^def auth_pre(request,api_hostname):$/;"	kind:function	line:27
+auth_redirect	duos/views.py	/^def auth_redirect(request,api_hostname,identifer):$/;"	kind:function	line:118
+auth_text_gen	test_crpyto.py	/^def auth_text_gen(key,text):$/;"	kind:function	line:52
+base64	duo/__init__.py	/^import base64$/;"	kind:namespace	line:8
+base64	duos/auth_tools/ws_init_auth.py	/^import base64$/;"	kind:namespace	line:4
+base64	duos/duoTools.py	/^import base64$/;"	kind:namespace	line:6
+base64	test_crpyto.py	/^import base64$/;"	kind:namespace	line:3
+bind_device	duos/views.py	/^def bind_device(request,api_hostname,identifer):$/;"	kind:function	line:86
+cStringIO	duos/duoTools.py	/^import cStringIO$/;"	kind:namespace	line:14
+cache	duos/consumers.py	/^from django.core.cache import cache$/;"	kind:namespace	line:5
+cache	duos/views.py	/^from django.core.cache import cache$/;"	kind:namespace	line:14
+channel_layer	whu_isc/asgi.py	/^channel_layer = channels.asgi.get_channel_layer()/;"	kind:variable	line:5
+channel_routing	whu_isc/routing.py	/^channel_routing = [$/;"	kind:variable	line:4
+channel_session	duos/consumers.py	/^from channels.sessions import channel_session,session_for_reply_channel$/;"	kind:namespace	line:4
+channels	whu_isc/asgi.py	/^import channels.asgi$/;"	kind:namespace	line:2
+chardet	duos/duoTools.py	/^        import chardet$/;"	kind:namespace	line:38
+chardet	test_crpyto.py	/^import chardet$/;"	kind:namespace	line:4
+checkUserEnrolled	duos/duoTools.py	/^def checkUserEnrolled(userName,account):$/;"	kind:function	line:72
+checkUserEnrolled	duos/tests.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse$/;"	kind:namespace	line:8
+checkUserEnrolled	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+check_bind	duos/views.py	/^def check_bind(request,api_hostname,identifer):$/;"	kind:function	line:99
+choice	duos/auth_tools/ws_init_auth.py	/^choice = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'$/;"	kind:variable	line:7
+choice	duos/models.py	/^choice = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'$/;"	kind:variable	line:12
+choice	test_crpyto.py	/^choice = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'$/;"	kind:variable	line:10
+consumers.py	duos/consumers.py	1;"	kind:file	line:1
+createRandomFields	duos/auth_tools/ws_init_auth.py	/^def createRandomFields(size):$/;"	kind:function	line:9
+createRandomFields	duos/duoTools.py	/^from .models import Account,Application,createRandomFields,User$/;"	kind:namespace	line:4
+createRandomFields	duos/models.py	/^def createRandomFields(size):$/;"	kind:function	line:15
+createRandomFields	duos/tests.py	/^from .models import Account,Application,User,createRandomFields$/;"	kind:namespace	line:4
+createRandomFields	duos/views.py	/^from .models import Application,Account,User,Device,createRandomFields$/;"	kind:namespace	line:4
+createRandomFields	initdb.py	/^from duos.models import Account,Application,User,createRandomFields,Device$/;"	kind:namespace	line:8
+createRandomFields	test_crpyto.py	/^def createRandomFields(size):$/;"	kind:function	line:13
+dKey	duos/models.py	/^    dKey = models.CharField('Device Key',max_length=256,null=True)$/;"	kind:variable	line:94
+db	duos/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+de	test_crpyto.py	/^def de(key,text):$/;"	kind:function	line:46
+decrypt	duos/auth_tools/ws_init_auth.py	/^from duos.duoTools import encrypt,decrypt$/;"	kind:namespace	line:3
+decrypt	duos/duoTools.py	/^def decrypt(key,text):$/;"	kind:function	line:127
+decrypt	test_crpyto.py	/^def decrypt(key,text):$/;"	kind:function	line:40
+decrypt_and_validate_info	duos/auth_tools/ws_init_auth.py	/^def decrypt_and_validate_info(e,key,random_number,prefix=None):$/;"	kind:function	line:40
+decrypt_and_validate_info	test_crpyto.py	/^def decrypt_and_validate_info(e,key,random_number,prefix=None):$/;"	kind:function	line:79
+del_chanell_session	duos/consumers.py	/^def del_chanell_session(message,*sessions):$/;"	kind:function	line:83
+deletion	duos/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+dependencies	duos/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+device_user1_1	initdb.py	/^    device_user1_1 = Device.objects.create(user=user1,account=acc1,**Device.new_device(acc1.api_hostname))$/;"	kind:variable	line:37
+device_user1_2	initdb.py	/^    device_user1_2 = Device.objects.create(user=user1,account=acc1,**Device.new_device(acc1.api_hostname))$/;"	kind:variable	line:38
+device_user2	initdb.py	/^    device_user2 = Device.objects.create(user=user2,account=acc2,**Device.new_device(acc2.api_hostname))$/;"	kind:variable	line:39
+django	duos/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+django	initdb.py	/^import django$/;"	kind:namespace	line:5
+django	manage.py	/^            import django$/;"	kind:namespace	line:14
+duoTools.py	duos/duoTools.py	1;"	kind:file	line:1
+encrypt	duos/auth_tools/ws_init_auth.py	/^from duos.duoTools import encrypt,decrypt$/;"	kind:namespace	line:3
+encrypt	duos/duoTools.py	/^def encrypt(key,text):$/;"	kind:function	line:109
+encrypt	test_crpyto.py	/^def encrypt(key,text):$/;"	kind:function	line:20
+enroll	duos/views.py	/^def enroll(request,api_hostname,iKey):$/;"	kind:function	line:184
+execute_from_command_line	manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+explicit_text	test_crpyto.py	/^explicit_text = ''$/;"	kind:variable	line:96
+explicit_text_gen	test_crpyto.py	/^def explicit_text_gen(key,text):$/;"	kind:function	line:60
+field	duos/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='duos.User'),$/;"	kind:variable	line:59
+fields	duos/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	duos/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:29
+fields	duos/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:39
+fields	duos/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:49
+gen_b64_random_and_code	duos/auth_tools/ws_init_auth.py	/^def gen_b64_random_and_code(key,prefix,data=None):$/;"	kind:function	line:25
+gen_b64_random_and_code	duos/views.py	/^from auth_tools.ws_init_auth import EXPLICIT_AUTH_PREFIX,gen_b64_random_and_code$/;"	kind:namespace	line:19
+gen_b64_random_and_code	duos/views.py	/^from auth_tools.ws_init_auth import gen_b64_random_and_code,EXPLICIT_AUTH_PREFIX$/;"	kind:namespace	line:21
+gen_b64_random_and_code	test_crpyto.py	/^def gen_b64_random_and_code(key,prefix,data=None):$/;"	kind:function	line:68
+generate_aes_key	duos/duoTools.py	/^def generate_aes_key():$/;"	kind:function	line:105
+generate_aes_key	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+generate_captcha	duos/duoTools.py	/^def generate_captcha(api_hostname,identifer,dKey):$/;"	kind:function	line:92
+generate_captcha	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+getSig	duos/tests.py	/^def getSig():$/;"	kind:function	line:24
+getSig	initdb.py	/^from duos.tests import initdb,getSig,getSigNoUser$/;"	kind:namespace	line:9
+getSigNoUser	duos/tests.py	/^def getSigNoUser():$/;"	kind:function	line:31
+getSigNoUser	initdb.py	/^from duos.tests import initdb,getSig,getSigNoUser$/;"	kind:namespace	line:9
+get_channel_layer	duos/consumers.py	/^from channels.asgi import get_channel_layer$/;"	kind:namespace	line:3
+get_channel_layer	duos/views.py	/^from channels.asgi import get_channel_layer$/;"	kind:namespace	line:13
+get_object_or_404	duos/views.py	/^from django.shortcuts import render,get_object_or_404,redirect$/;"	kind:namespace	line:3
+get_session_from_channels	duos/consumers.py	/^def get_session_from_channels(channels_list,session=None):$/;"	kind:function	line:96
+get_session_from_channels	duos/views.py	/^from consumers import get_session_from_channels$/;"	kind:namespace	line:20
+get_session_from_group	duos/consumers.py	/^def get_session_from_group(group_name,session=None):$/;"	kind:function	line:89
+get_wsgi_application	whu_isc/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+handler403	duos/urls.py	/^from django.conf.urls import url,handler404,handler403$/;"	kind:namespace	line:1
+handler404	duos/urls.py	/^from django.conf.urls import url,handler404,handler403$/;"	kind:namespace	line:1
+hashlib	duo/__init__.py	/^import hashlib$/;"	kind:namespace	line:9
+hashlib	duos/duoTools.py	/^import hashlib$/;"	kind:namespace	line:8
+hmac	duo/__init__.py	/^import hmac$/;"	kind:namespace	line:10
+hmac	duos/duoTools.py	/^import hmac$/;"	kind:namespace	line:9
+iKey	duos/models.py	/^    iKey = models.CharField('Integration Key',max_length=20,unique=True)$/;"	kind:variable	line:50
+identifer	duos/models.py	/^    identifer = models.CharField(max_length=20)$/;"	kind:variable	line:91
+include	whu_isc/routing.py	/^from channels import include$/;"	kind:namespace	line:1
+include	whu_isc/urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:16
+initdb	duos/tests.py	/^def initdb():$/;"	kind:function	line:17
+initdb	initdb.py	/^from duos.tests import initdb,getSig,getSigNoUser$/;"	kind:namespace	line:9
+initdb.py	initdb.py	1;"	kind:file	line:1
+initial	duos/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+is_activated	duos/models.py	/^    is_activated = models.BooleanField(default=False)$/;"	kind:variable	line:92
+json	duos/consumers.py	/^import json$/;"	kind:namespace	line:7
+json	duos/views.py	/^import json$/;"	kind:namespace	line:17
+key	test_crpyto.py	/^key = 'MVFX4SqnIT5q5Iofah9juQWfhhLFNL6X'$/;"	kind:variable	line:93
+manage.py	manage.py	1;"	kind:file	line:1
+math	duos/duoTools.py	/^import math$/;"	kind:namespace	line:13
+math	test_crpyto.py	/^import math$/;"	kind:namespace	line:6
+migrations	duos/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+model_name	duos/migrations/0001_initial.py	/^            model_name='device',$/;"	kind:variable	line:57
+models	duos/duoTools.py	/^from django.db import models$/;"	kind:namespace	line:3
+models	duos/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	duos/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	duos/models.py	/^from django.db import models$/;"	kind:namespace	line:5
+models	duos/tests.py	/^from django.db import models$/;"	kind:namespace	line:2
+models.py	duos/models.py	1;"	kind:file	line:1
+mychannel_routing	duos/routing.py	/^mychannel_routing = [$/;"	kind:variable	line:8
+name	duos/apps.py	/^    name = 'duos'$/;"	kind:variable	line:7
+name	duos/migrations/0001_initial.py	/^            name='Account',$/;"	kind:variable	line:18
+name	duos/migrations/0001_initial.py	/^            name='Application',$/;"	kind:variable	line:28
+name	duos/migrations/0001_initial.py	/^            name='Device',$/;"	kind:variable	line:38
+name	duos/migrations/0001_initial.py	/^            name='User',$/;"	kind:variable	line:48
+name	duos/migrations/0001_initial.py	/^            name='device',$/;"	kind:variable	line:66
+name	duos/migrations/0001_initial.py	/^            name='user',$/;"	kind:variable	line:58
+name	duos/migrations/0001_initial.py	/^            name='user',$/;"	kind:variable	line:62
+name	duos/models.py	/^    name = models.CharField(max_length=30)$/;"	kind:variable	line:51
+new_account_hostname	duos/models.py	/^    def new_account_hostname(self):$/;"	kind:member	line:32
+new_app	duos/models.py	/^    def new_app(self,api_hostname):$/;"	kind:member	line:58
+new_device	duos/models.py	/^    def new_device(self,api_hostname):$/;"	kind:member	line:102
+operations	duos/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+os	initdb.py	/^import os$/;"	kind:namespace	line:3
+os	manage.py	/^import os$/;"	kind:namespace	line:2
+os	whu_isc/asgi.py	/^import os$/;"	kind:namespace	line:1
+os	whu_isc/settings.py	/^import os$/;"	kind:namespace	line:13
+os	whu_isc/wsgi.py	/^import os$/;"	kind:namespace	line:10
+parseDuoSig	duos/duoTools.py	/^def parseDuoSig(sig):$/;"	kind:function	line:25
+parseDuoSig	duos/tests.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse$/;"	kind:namespace	line:8
+parseDuoSig	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+pprint	duos/tests.py	/^from pprint import pprint$/;"	kind:namespace	line:9
+python_2_unicode_compatible	duos/models.py	/^from django.utils.encoding import python_2_unicode_compatible$/;"	kind:namespace	line:6
+qrcode	duos/duoTools.py	/^import qrcode$/;"	kind:namespace	line:11
+random	duos/auth_tools/ws_init_auth.py	/^import random$/;"	kind:namespace	line:5
+random	duos/duoTools.py	/^import random$/;"	kind:namespace	line:7
+random	duos/models.py	/^import random$/;"	kind:namespace	line:8
+random	duos/tests.py	/^import random$/;"	kind:namespace	line:7
+random	test_crpyto.py	/^import random$/;"	kind:namespace	line:7
+redirect	duos/views.py	/^from django.shortcuts import render,get_object_or_404,redirect$/;"	kind:namespace	line:3
+render	duos/views.py	/^from django.shortcuts import render,get_object_or_404,redirect$/;"	kind:namespace	line:3
+requests	duos/views.py	/^import requests$/;"	kind:namespace	line:15
+reverse	duos/tests.py	/^from django.urls import reverse$/;"	kind:namespace	line:10
+reverse	duos/views.py	/^from django.urls import reverse$/;"	kind:namespace	line:11
+reverse	initdb.py	/^from django.urls import reverse$/;"	kind:namespace	line:10
+route	duos/routing.py	/^from channels import route$/;"	kind:namespace	line:1
+routing.py	duos/routing.py	1;"	kind:file	line:1
+routing.py	whu_isc/routing.py	1;"	kind:file	line:1
+sKey	duos/models.py	/^    sKey = models.CharField('Secret Key',max_length=40)$/;"	kind:variable	line:49
+session_for_reply_channel	duos/consumers.py	/^from channels.sessions import channel_session,session_for_reply_channel$/;"	kind:namespace	line:4
+settings.py	whu_isc/settings.py	1;"	kind:file	line:1
+signResponse	duos/duoTools.py	/^def signResponse(sigDicts,sKey):$/;"	kind:function	line:83
+signResponse	duos/tests.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse$/;"	kind:namespace	line:8
+signResponse	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+sign_enroll_request	duo/__init__.py	/^def sign_enroll_request(ikey, skey, akey, username):$/;"	kind:function	line:135
+sign_request	duo/__init__.py	/^def sign_request(ikey, skey, akey, username):$/;"	kind:function	line:120
+sign_request	duos/tests.py	/^from duo import _sign_vals,_parse_vals,sign_request$/;"	kind:namespace	line:6
+sys	manage.py	/^import sys$/;"	kind:namespace	line:3
+testException	duos/tests.py	/^    def testException(self):$/;"	kind:member	line:66
+test_crpyto.py	test_crpyto.py	1;"	kind:file	line:1
+tests.py	duos/tests.py	1;"	kind:file	line:1
+time	duo/__init__.py	/^import time$/;"	kind:namespace	line:11
+time	duos/duoTools.py	/^import time$/;"	kind:namespace	line:10
+time	duos/tests.py	/^import time$/;"	kind:namespace	line:11
+time	duos/views.py	/^import time$/;"	kind:namespace	line:18
+unicode_literals	duos/apps.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:1
+unicode_literals	duos/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unicode_literals	duos/models.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+unique_together	duos/migrations/0001_initial.py	/^            unique_together=set([('identifer', 'account')]),$/;"	kind:variable	line:67
+unique_together	duos/migrations/0001_initial.py	/^            unique_together=set([('user_name', 'account')]),$/;"	kind:variable	line:63
+unique_together	duos/models.py	/^        unique_together=(("identifer","account"),)$/;"	kind:variable	line:115
+unique_together	duos/models.py	/^        unique_together=(("user_name","account"),)$/;"	kind:variable	line:82
+url	duos/urls.py	/^from django.conf.urls import url,handler404,handler403$/;"	kind:namespace	line:1
+url	whu_isc/urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:16
+urlpatterns	duos/urls.py	/^urlpatterns = [$/;"	kind:variable	line:6
+urlpatterns	whu_isc/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	duos/urls.py	1;"	kind:file	line:1
+urls.py	whu_isc/urls.py	1;"	kind:file	line:1
+user	duos/models.py	/^    user = models.ForeignKey(User,on_delete=models.CASCADE)$/;"	kind:variable	line:95
+user1	initdb.py	/^    user1 = User.objects.create(user_name="xrb",user_phone="15927432501",account=acc1)$/;"	kind:variable	line:33
+user2	initdb.py	/^    user2 = User.objects.create(user_name="xrb",user_phone="15927432501",account=acc2)$/;"	kind:variable	line:34
+user3	initdb.py	/^    user3 = User.objects.create(user_name="xrb_2",user_phone="15927432501",account=acc1)$/;"	kind:variable	line:35
+user_name	duos/models.py	/^    user_name = models.CharField(max_length=30)$/;"	kind:variable	line:77
+user_phone	duos/models.py	/^    user_phone = models.CharField(max_length=11)$/;"	kind:variable	line:78
+validateParams	duos/duoTools.py	/^def validateParams(sigDicts,sKey):$/;"	kind:function	line:60
+validateParams	duos/tests.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse$/;"	kind:namespace	line:8
+validateParams	duos/views.py	/^from .duoTools import parseDuoSig,validateParams,checkUserEnrolled,signResponse,DuoFormatException,generate_aes_key,generate_captcha$/;"	kind:namespace	line:8
+verify_enroll_response	duo/__init__.py	/^def verify_enroll_response(ikey, skey, akey, sig_response):$/;"	kind:function	line:190
+verify_response	duo/__init__.py	/^def verify_response(ikey, skey, akey, sig_response):$/;"	kind:function	line:176
+views	duos/urls.py	/^from . import views$/;"	kind:namespace	line:2
+views.py	duos/views.py	1;"	kind:file	line:1
+ws_connect	duos/consumers.py	/^def ws_connect(message,api_hostname,identifer):$/;"	kind:function	line:15
+ws_connect	duos/routing.py	/^from .consumers import ws_connect$/;"	kind:namespace	line:3
+ws_disconnect	duos/consumers.py	/^def ws_disconnect(message,api_hostname,identifer):$/;"	kind:function	line:77
+ws_disconnect	duos/routing.py	/^from .consumers import ws_disconnect$/;"	kind:namespace	line:5
+ws_init_auth	duos/consumers.py	/^from auth_tools import ws_init_auth$/;"	kind:namespace	line:8
+ws_init_auth.py	duos/auth_tools/ws_init_auth.py	1;"	kind:file	line:1
+ws_message	duos/consumers.py	/^def ws_message(message,api_hostname,identifer):$/;"	kind:function	line:36
+ws_message	duos/routing.py	/^from .consumers import ws_message$/;"	kind:namespace	line:4
+wsgi.py	whu_isc/wsgi.py	1;"	kind:file	line:1
+xframe_options_exempt	duos/views.py	/^from django.views.decorators.clickjacking import xframe_options_exempt$/;"	kind:namespace	line:7
